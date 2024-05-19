@@ -1,0 +1,42 @@
+/* src/styles/styles.css */
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+  
+  .module {
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin: 8px;
+  }
+  
+  .resource {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 4px;
+  }
+  
+  .resource input {
+    margin-right: 8px;
+  }
+  
+  .resource button {
+    margin-left: 8px;
+  }
+  
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+  }
+  
